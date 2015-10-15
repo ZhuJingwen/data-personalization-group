@@ -25,14 +25,13 @@
 <body>
 	<header class="cd-header">
 		<div id="cd-logo">
-	<!-- 		<div style="width:20px; background-color:#cbb1a9 display: "></div> -->
 			<h1>Who eats off of the clothes on your back?</h1>
 		</div>
 
 		<nav class="cd-main-nav">
 			<ul>
 				<!-- inser more links here -->
-				<li>About</li>
+				<li id="about-button">About</li>
 			</ul>
 		</nav> <!-- cd-main-nav -->
 	</header>
@@ -42,56 +41,149 @@
 			        <div id="search-div">
         <div class="form-group">
 <!--           <label for="input-search">Search</label> -->
-        <input type="text" class="form-control " id="input-search" placeholder="What are you gonna buy?">
+        <input type="text" class="form-control " id="input-search" placeholder="Link Me To What You Want to Buy">
         </div>
         
       </div>
 		</div> <!-- cd-fixed-bg -->
 
-		<div class="cd-scrolling-bg cd-color-2">
+		<div id="section-1"class="cd-scrolling-bg cd-color-2">
 			<div class="cd-container">
-				      <div id="cloth-chart">
-      </div>
+				<h2 class="col-md-12">Is This What You Were Looking At?</h2>
+				<div id="cloth-chart">
+					<div class="row">
+					<div class="col-md-4">
+						<img src="img/sweatshirts.svg" width="100%">
+					</div>
+					<div id="details" class="col-md-8">
+						<p>NIKE TECH FLEECE CAPE</p>
+						<p>Brand: Nike</p>
+						<p>Fabric: 69% cotton/31% polyester</p>
+						<p>Imported</p>
+						<p>Made in India</p>
+					</div>
+				</div>
+				</div>
+				<p>Scroll Down To Learn More About This Item</p>
 			</div> <!-- cd-container -->
 		</div> <!-- cd-scrolling-bg -->
+	
 
 		<div class="cd-fixed-bg cd-bg-2">
-			<h2>About the country</h2>
+			<div class="h-background">
+			<h1>Where does your desired piece of clothing come from?</h1>
+		</div>
 		</div> <!-- cd-fixed-bg -->
 
 		<div class="cd-scrolling-bg cd-color-1">
 			<div class="cd-container">
-				    <div id="map-chart" class="chart-div">
+				 <div id="map-chart" class="chart-div">
+				 	<h1>Top 10 Clothing Exporters for The United States</h1>
         <div id="mapdiv" style="width: 100%; height: 600px;"></div>
       </div>
 			</div> <!-- cd-container -->
 		</div> <!-- cd-scrolling-bg -->
 
 		<div class="cd-fixed-bg cd-bg-3">
-			<h2>About the worker</h2>
+			<div class="h-background">
+			<h1>Who made your clothing?</h1>
+		</div>
 		</div> <!-- cd-fixed-bg -->
 
 		<div class="cd-scrolling-bg cd-color-2">
 			<div class="cd-container">
-				      <div id="gender-chart" class="chart-div">
-        <img src="img/male.svg" class="col-md-6 img-responsive ">
-        <img src="img/female.svg"class="col-md-6 img-responsive ">
-      </div>
+
+				<div class="row">
+					<!-- <div class="float">India</div> -->
+				<img src="img/india.svg" class="col-md-4 img-responsive ">
+				<div class="eight colomn">
+					
+					<div class="col-md-4">
+						<p class="title"># of Workers for Brand</p>
+						<p class="stats">28,632</p>
+					</div>
+
+					<div class="col-md-4">
+						<p class="title">Average Age of Worker</p>
+						<p class="stats">29</p>
+					</div>
+
+					<div class="col-md-8">
+						<p class="title">Gender Breakdown</p>
+					</div>
+
+					<div class="col-md-8" id="bar">
+						<div class="barchart" id="male"></div>
+						<div class="barchart" id="female"></div>
+					</div>
+
+					<div class="col-md-8">
+						<div class="col-md-6"id="male2">Male</div>
+						<div class="col-md-6" id="female2">Female</div>
+					</div>
+				</div>
+			</div>
+
+				<div>
+					<div class="statshourly col-md-4">
+        				<p class="title">Per Hour</p>
+        				<p class="stats">$0.70</p>
+        			</div>
+
+        			<div class="statsmonthly col-md-4">
+        				<p class="title">Per Day</p>
+        				<p class="salary stats">$3.20</p>
+        			</div>
+
+        			<div class ="statsyearly col-md-4">
+        				<p class="title">Per Year</p>
+        				<p class="stats">$70.00</p>
+        			</div>
+        		</div>
+
+
+
+
 			</div> <!-- cd-container -->
 		</div> <!-- cd-scrolling-bg -->
 
 		<div class="cd-fixed-bg cd-bg-4">
-			<h2>About their food.</h2>
+			<div class="h-background">
+			<h1>How much would you spend on food if your entire wage for a day is $3.20?</h1>
+		</div>
 		</div> <!-- cd-fixed-bg -->
 
-				<div class="cd-scrolling-bg cd-color-2">
-					<p>test</p>
+				<div class="cd-scrolling-bg cd-color-1">
 			<div class="cd-container">
+				<div class="tab col-md-4">
+					<p>Total: </p>
+					<p>$3.20</p>
+				</div>
+				<div class="tab col-md-4">
+					<p>Food: </p>
+					<p id="spent">$0.00</p>
+				</div>
+				<div class="tab col-md-4">
+					<p>Left: </p>
+					<p id="left">$3.20</p>
+				</div>
 				           <div id="food-chart" class="chart-div">
       </div>
 			</div> <!-- cd-container -->
+
+
 		</div> <!-- cd-scrolling-bg -->
 
+	<div id="about-page"class="cd-scrolling-bg cd-color-3">
+		<div class="cd-container">
+			<h2>About</h2>
+			<p>Who Eats Off Of The Clothes On Your Back? is an interactive web-based platform developed by Jingwen Zhu and Ashley Cortez to improve transparency in our buying habits in the apparel and textile industries.</p>
+			<p> </p>
+			<p>Who Eats Off Of The Clothes On Your Back? works by leveraging data from The International Labour Organization, individual company’s open data and national food costs and synthesizes them into what a day in the life of someone who makes your garments is afforded to live by.</p>
+			<p> </p>
+			<p>In the future, Jingwen and Ashley would like to add more company’s information and have a broader reach in order to evoke empathy and help others be mindful with their buying power.</p>
+		</div> <!-- cd-container -->
+	</div> <!-- cd-scrolling-bg -->
 
 	</main> <!-- cd-main-content -->
 </body>

@@ -2,8 +2,11 @@
 /* Custom CSS */
 /**************/
 body{
-/*	background-image: url(../img/background2.jpg);*/
-background-color: #34495e;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.cd-container{
+    width:95%;
 }
 h1{
 	text-align: center;
@@ -17,6 +20,8 @@ canvas{
 	margin: 0 auto;
   display: block;
 }
+
+
 
 #menu{
 	margin-bottom:30px;
@@ -54,22 +59,212 @@ canvas{
     font-size:20pt;
 }
 
-.container:{
-	position:absolute;
-	background-color: #000;
+
+
+
+
+.h-background{
+    background-color:#FFF;
+/*    opacity:0.5;   */ 
 }
+
+.cd-fixed-bg h1{
+/*    background-color: #FFF;
+    opacity: 0.8;*/
+    color:#FFF;
+    font-weight: 700;
+    text-shadow:#454545 2px 2px 3px;
+}
+
+.cd-container h2{
+    color:#FFF;
+    font-weight: 700;
+    font-size: 20pt;
+    text-align: center;
+    margin: 20px;
+    background-color: #454545;
+}
+
+.cd-container p{
+/*    color:#454545;*/
+/*    text-align: center;*/
+/*    margin: 20px;*/
+}
+
+#details p{
+    background-color: #cbb1a9;
+    color:#454545;
+    margin:10px;
+    padding:6px;
+    padding-left: 20px;
+}
+
 
 .chart-div{
-	padding-top:30px;
-	padding-bottom:30px;
-/*/*	background-color: #fff;*/
-/*	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";       /* IE 8 */
-/*filter: alpha(opacity=50);   IE 5-7 
--moz-opacity: 0.5;           Netscape 
--khtml-opacity: 0.5;        /* Safari 1.x */
-/*opacity: 0.5;  **//*/*/
+    padding-top:30px;
+    padding-bottom:30px;
 }
 
-#gender-chart{
-	height:200px;
+.float{
+    float:left;
+    z-index: 9999;
+}
+
+.statshourly, .statsmonthly, .statsyearly {
+    text-align: center;
+/*    width: 157px;
+    text-align: center;*/
+   /* float: left;*/
+/*    display: inline-block;*/
+
+}
+
+.col-md-4 {
+/*    text-align: center;*/
+}
+
+/*.statsyearly {
+    margin-right: 0%;
+}*/
+.stats {
+    font-size: 4em;
+    background-color: #454545;
+    color: #d5d3d2;
+    text-align: center;
+}
+
+.title {
+    text-align: left;
+    font-size: .7em;
+}
+
+.salary{
+    color: #cbb1a9;
+}
+
+.barchart{
+    display: inline-block;
+    margin:0px;
+}
+
+#bar{
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+#female{
+    background-color: #cbb1a9;
+    margin: 0px;
+}
+
+#male{
+    background-color: #454545;
+    margin: 0px;
+}
+
+#male2{
+    text-align: left;
+    font-size: 0.7em;
+    padding: 0px;
+}
+
+#female2{
+    text-align: right;
+    font-size: 0.7em;
+    padding: 0px;
+}
+
+
+
+.slider-bar{
+        border: 0;
+ 
+  background-color: #d5d3d2;
+  border-radius: 0px;
+    height: 7px;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+.slider-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+     background-color: #906363;
+    border: 0px;
+    width: 20px;
+    height: 20px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.block{
+    margin:0px;
+    margin-bottom: 20px;
+}
+
+.icon{
+    display: inline-block;
+}
+
+.tag{
+    display: inline-block;
+}
+
+.tag div{
+   /* display: inline-block;*/
+
+}
+
+.name{
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 16pt;
+
+}
+
+.value{
+    display: inline-block;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+}
+
+.price{
+    display: inline-block;
+}
+
+.unit{
+    display: inline-block;
+    margin-left:10px;
+}
+.slider{
+    
+    width:90%;
+}
+
+.tab{
+        font-size: 2em;
+    background-color: #d5d3d2;
+    color:#454545 ;
+    border:10px solid;
+    border-color: #454545;
+}
+
+.tab p{
+    display: inline-block;
+}
+
+#map-chart h1{
+    font-size: 20pt;
+    margin-bottom:20px;
+        background-color: #d5d3d2;
+    color:#454545 ;
+}
+
+#about-page p{
+    margin:20px;
+}
+
+#about-page h2{
+
 }
